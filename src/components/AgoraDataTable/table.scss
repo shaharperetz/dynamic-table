@@ -1,0 +1,21 @@
+.table-container {
+  padding: 16px;
+}
+
+.react-resizable {
+  position: relative;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  cursor: col-resize;
+  z-index: 1;
+}
+
+.react-resizable-handle:hover {
+  background-color: #f0f0f0;
+}
